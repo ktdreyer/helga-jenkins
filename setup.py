@@ -18,6 +18,7 @@ setup(name="helga-jenkins",
       license='MIT',
       packages=find_packages(),
       install_requires=[
+          'helga',
           'python-jenkins',
       ],
       entry_points = dict(
